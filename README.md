@@ -5,7 +5,7 @@ FPGA自主设计实验_2019.12.20_模拟与数字电路实验_大作业
 
 环境：
 	
-	Diligient Nexys4 FPGA
+	Diligent Nexys4 FPGA
 	Vivado 2019.1 for Windows
 
 
