@@ -15,7 +15,7 @@ FPGA自主设计实验_2019.12.20_模拟与数字电路实验_大作业
 
 文件列表：
 
-      vivado项目源文件：project_6.scrs
+      vivado项目源文件：scrs/
       COE文件：nexys4.xdc
       图片素材：          
 		heart.png		//用于显示心形
