@@ -18,11 +18,11 @@ FPGA自主设计实验_2019.12.20_模拟与数字电路实验_大作业
       vivado项目源文件：project_6.scrs
       COE文件：nexys4.xdc
       图片素材：          
-	heart.png		      //用于显示心形
-	board.bmp			//用于显示板块
-	person_r.bmp		//用于显示人物朝右移动时的图像
-	person_l.bmp		//用于显示人物朝左移动时的图像
-	background.jpg	      //用于显示背景图像
+		heart.png		//用于显示心形
+		board.bmp		//用于显示板块
+		person_r.bmp		//用于显示人物朝右移动时的图像
+		person_l.bmp		//用于显示人物朝左移动时的图像
+		background.jpg	        //用于显示背景图像
       图片处理程序（以处理心形时为例）：processor8bitto.m
       图片处理结果（以处理心形时为例）：img_h.coe
       演示图片：	display.jpg
