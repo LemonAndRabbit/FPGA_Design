@@ -7,11 +7,14 @@
 
 ## 实验环境：
 
-> [Diligent Nexys4 FPGA](https://reference.digilentinc.com/reference/programmable-logic/nexys-4-ddr/start)
+> [Diligent Nexys4 FPGA](https://reference.digilentinc.com/reference/programmable-logic/nexys-4-ddr/start) 
+>
 > Vivado 2019.1 for Windows
 >
 > 外设：
->PS/2 Keyboard
+>
+> PS/2 Keyboard
+>
 > VGA Display Device
 
 ## 特点： 
@@ -26,17 +29,17 @@
 
 ## 文件列表：
 
-| 位置            | 内容                                                         |
-| --------------- | ------------------------------------------------------------ |
-| srcs/           | 源码                                                         |
-| ├──ip/          | 一系列 coe 文件，通过处理原始图片得到                        |
-| └──new/         | 模块源码                                                     |
-| ├── top.v       | 顶层模块，实现了游戏逻辑，计算画面输出                       |
-| ├──counter.v    | 计数器模块，用于生成特定时钟信号                             |
-| ├──keyboard.v   | 键盘模块，通过一个有限状态自动机读取PS/2接口的键盘输入，判断通码断码 |
-| ├──vga.v        | VGA模块，控制VGA输出的行同步信号和列同步信号，提示top模块当前应该输出的像素所在的行和列 |
-| ├──seg7.v       | 控制7段数码管输出                                            |
-| └──background.v | 根据要显示的位置提取背景中的像素，其他图像像素的提取工作在 top.v 中完成 |
-| imgs/           | 一系列原始图像文件，通过该文件夹下的matlab文件提取像素       |
-| Nexys.xdc       | 约束文件                                                     |
-| vedio.mp4       | 演示视频                                                     |
+| 位置                  | 内容                                                         |
+| --------------------- | ------------------------------------------------------------ |
+| srcs/                 | 源码                                                         |
+| srcs/ip/              | 一系列 coe 文件，通过处理原始图片得到                        |
+| srcs/new/             | 模块源码                                                     |
+| srcs/new/top.v        | 顶层模块，实现了游戏逻辑，计算画面输出                       |
+| srcs/new/counter.v    | 计数器模块，用于生成特定时钟信号                             |
+| srcs/new/keyboard.v   | 键盘模块，通过一个有限状态自动机读取PS/2接口的键盘输入，判断通码断码 |
+| srcs/new/vga.v        | VGA模块，控制VGA输出的行同步信号和列同步信号，提示top模块当前应该输出的像素所在的行和列 |
+| srcs/new/seg7.v       | 控制7段数码管输出                                            |
+| srcs/new/background.v | 根据要显示的位置提取背景中的像素，其他图像像素的提取工作在 top.v 中完成 |
+| imgs/                 | 一系列原始图像文件，通过该文件夹下的matlab文件提取像素       |
+| Nexys.xdc             | 约束文件                                                     |
+| vedio.mp4             | 演示视频                                                     |
